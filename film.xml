@@ -1,11 +1,14 @@
 <!DOCTYPE filmographie [
     <!ELEMENT filmographie (film+)>
-    <!ELEMENT film (titre, réalisateur, année, genre, acteurs, synopsis)>
+    <!ELEMENT film (titre, réalisateur, année,langue, genre, acteurs)>
+
     <!ELEMENT titre (#PCDATA)>
     <!ELEMENT réalisateur (#PCDATA)>
     <!ELEMENT année (#PCDATA)>
+    <!ELEMENT langue(#PCDATA)>
     <!ELEMENT genre (#PCDATA)>
+
     <!ELEMENT acteurs (acteur+)>
     <!ELEMENT acteur (#PCDATA)>
-    <!ELEMENT synopsis (#PCDATA)>
+    
 ]>
